@@ -1,0 +1,43 @@
+#for i in range(5):
+ #print(i)
+#prints 0,1,2,3,4 each on their own line
+#the number in range() is how many nums are printed
+#starting at 0 and ending at stop-1
+#starting at 0 and ending at stop-1
+#for i in range(5):
+# print(i,end=",")
+ 
+ #for loop style 2 - for i in range(start, stop)
+ #this prints start+1 ..., stop-1
+ #loop runs stop-start, , number of times
+#for num in range(2,6):
+# print(num,end='')
+# print(f"x|x^2")
+#for num_to_square in range(1,6):
+###########################################################
+ #   print(f"{num_to_square}|{num_to_square**2}")
+#print(f"--------")
+#for number in range (12,93,7):
+    #print(number, end = " ")
+   # print(i,end = ' ')
+   # loop runs ceiling((stop-start)/step) times
+  #user_num = int(input("give me a number: "))
+  #sum = 0
+  #for num in range(1,user_num):
+  #sum = sum + num
+ # print(f"the sum is {sum}")
+number1 = int(input("pick a number "))
+number2 = int(input("pick another number "))
+number3 = int(input("pick another number "))
+number4 = int(input("pick another number "))
+number5 = int(input("pick another number "))
+average = (number1 + number2 + number3 + number4 + number5)/5
+print(f" your average is {average}")
+
+user_sum=0
+for i in range(5):
+    user_num= int(input("num"))
+    user_sum = User_sum + user_num 
+    average2 = user_sum/5
+      print(f"the average of your values is {avearage2})
+    
